@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+
+ @import url('http://fonts.cdnfonts.com/css/poiret-one');
+
+                
+.body {
+  background:  #E2E2E2;
+  font-family: 'Poiret One', sans-serif;
+                                                
+}
+
+.box-with-a-shadow {
+  margin: 20px;
+  background: white !important;
+  color: #1D1D1D;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    height: 25pX;
+}
+
+.toggle-button .bar {
+    height: 5px;
+    width: 40%;
+    background-color: grey;
+}
+
+.nav {
+  margin: 30px;
+  font-family: 'Poiret One', sans-serif;
+                                                
+  
+}
+
+@media screen and (max-width: 768px) { 
+   .toggle-button {
+    display: flex;
+}
+  .box-with-a-shadow {
+    margin: 0px;
+  }
+  .inventions1, .inventions2, .inventions3, .inventions4 {
+   flex-direction: column;
+  }
+  
+  nav ul { 
+    font-size: 20%;
+   
+  }
+ 
+  nav ul li a { display: none}
+  
+  .intro {
+    
+  max-width: 100%;
+  margin: 50px 0px 0px 0px !important;
+    
+  }
+  p {
+    font-size: 85%;
+  }
+  
+  hr {
+    width: 50%;
+  }
+}
+
+nav ul  {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: #1D1D1D;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Poiret One', sans-serif
+  font-size: 60px;
+}
+
+.quote {
+  text-align: center;
+  font-family: 'Poiret One', sans-serif;                           
+  font-size: 13px;
+  padding: 0px 50px 100px 50px;
+  color: #A5A6A1;
+  
+}
+
+#img-div {
+  text-align: center;
+}
+
+.logo {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+ #image { 
+    
+width: 100%;
+height: auto;
+max-width: 375px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+  
+}
+#img-caption {
+   font-size: 10px;
+}
+
+.intro {
+  
+  margin: 50px 200px 0px 200px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #332E42;
+  
+}
+
+#inventions {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inventions1, .inventions2, .inventions3, .inventions4  {
+  
+  display: flex;
+  flex-wrap: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 50px 10px 50px;
+  color: #A5A6A1;
+  
+}
+
+.alternating-current, .fluorescent-bulbs, .x-rays, .radio, .remote-control, .electric-motor, .tesla-coil, .wireless-com {
+  
+   font-size: 12px;
+   text-align: center;
+   max-width: 250px;
+   padding: 20px;
+  
+}
+
+.inv1, .inv2, .inv3, .inv4, .inv5, .inv6, .inv7, .inv8 {
+   font-size: 15px;
+   color: #202020;
+   font-weight: 600;  
+}
+
+.white-bio {
+  background-color: lightgrey;
+  color: #202020;
+  max-width: 650px;
+  margin: auto;
+  max-width: 900px; 
+}
+
+.inside-div {
+  text-align: center;
+  margin: 30px;
+}
+
+.green-lines {
+  background-color: white;
+  height: 1px;
+  width: 70px;
+  border-radius: 35px;
+}
+
+.bio1, .bio2, .bio3 {
+    color: #404040;
+    font-weight: normal;
+}
+
+.footer, footer p a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.Ayaan-codes {
+  font-size: 10px;
+}
+
+
+</style>
+    </head>
+    <body>
+      <main id="main">
+        <div class="box-with-a-shadow">
+          
+        <header>
+          <br>
+          <nav>
+            
+            <div class="logo"> Ayaan Alikadli</div>
+            
+            <a href="E" class="toggle-button">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                             <span class="bar"></span>
+            </a>
+            <ul>
+              
+               <li class="inventions-link"><a href="Index.html">Back to main page</a></li>
+
+            </ul>
+              
+            </nav>
+            
+        </header>
+          
+        <h1 id="title">Tesla Coil</h1>
+          
+        <div class="quote"><p>“Modern science says: 'The sun is the past, the earth is the present, the moon is the future.' From an incandescent mass we have originated, and into a frozen mass we shall turn. Merciless is the law of nature, and rapidly and irresistibly we are drawn to our doom.”
+        ― Nikola Tesla</p></div>
+          
+        <div id="img-div"><figure>
+          <img id="image" src="https://preview.free3d.com/img/2018/10/2188270614404400843/8myh62p1-900.jpg" width="660" height="375">
+          <figcaption id="img-caption">Tesla Coil </figcaption>
+        </figure><br>
+        <hr width="500px">
+        </div>
+        <section class="intro">
+        <p class="intro-words">A Tesla coil is an electrical resonant transformer circuit designed by inventor Nikola Tesla in 1891. It is used to produce high-voltage, low-current, high frequency alternating-current electricity.</p>
+        <br>
+        <br>
+        </section>
+        <div id="tribute-info">
+        <span id="inventions" > 
+          
+        <h2>USES</h2>
+          
+        <section class="inventions1" >
+          
+          <div class="alternating-current"><p class="inv1" >Education and entertainment<hr width="40px"></p> <br></br>
+          <img src="https://i.postimg.cc/3JG1Tgnj/1.png" width="90" height="90"><br><p class="invention-par1">Tesla coils are displayed as attractions at science museums and electronics fairs, and are used to demonstrate principles of high frequency electricity in science classes in schools and colleges.</p></div>
+          
+          <div class="fluorescent-bulbs"> <p class="inv2">Wireless Energy transmits
+           <hr width="40px"></p><br></br><img src="https://i.postimg.cc/Zq60Y5XM/2.png" width="90" height="90"></br><p class="invention-par2">Of course he didn't invent light itself, but he did invent how light can be harnessed and distributed. Tesla developed and used fluorescent bulbs in his lab some 40 years before industry "invented" them.</p></div>
+        </section>
+        <br>
+        <br>
+        <section class="inventions2" >
+          
+          <div class="x-rays"><p class="inv3">X-Rays<hr width="40px"></p><br></br><img src="https://i.postimg.cc/VvPkxQ7c/3.png" width="90" height="90"></br><p class="invention-par3">Electromagnetic and ionizing radiation was heavily researched in the late 1800s, but Tesla researched the entire gamut. Everything from a precursor to Kirlian photography, which has the ability to document life force.</p></div>
+          
+          <div class="radio"><p class="inv4">Radio<hr width="40px"></p><br></br><img src="https://i.postimg.cc/Jh2hrBhm/4.png" width="90" height="90"></br><p class="invention-par4">Guglielmo Marconi was initially credited, and most believe him to be the inventor of radio to this day. However, the Supreme Court overturned Marconi's patent in 1943, when it was proven that Tesla invented the radio years previous to Marconi.</p></div>
+        </section>
+          <br>
+          <br>
+        <section class="inventions3">
+          
+          <div class="remote-control"><p class="inv5">Remote Control<hr width="40px"></p><br></br><img src="https://i.postimg.cc/LX80Tnkq/5.png" width="90" height="90"></br><p class="invention-par5">This invention was a natural outcropping of radio. Patent No. 613809 was the first remote controlled model boat, demonstrated in 1898. Utilizing several large batteries and radio signals controlled switches.</p></div>
+          
+          <div class="electric-motor"><p class="inv6">Electric Motor<hr width="40px"></p><br></br><img src="https://i.postimg.cc/8zHCJ0Z1/6.png" width="90" height="90"></br><p class="invention-par6">Tesla's invention of a motor with rotating magnetic fields could have freed mankind much sooner from the stranglehold of Big Oil. However, his invention in 1930 succumbed to the economic crisis and the world war that followed.</p></div>
+        </section>
+          
+        <section class="inventions4">
+          
+          <div class="tesla-coil"><p class="inv7">Tesla Coil<hr width="40px"></p><br></br><img src="https://i.postimg.cc/8zQGHQyR/7.png" width="90" height="90"></br><p class="invention-par7">The Tesla Coil is certainly something that big industry would have liked to suppress: the concept that the Earth itself is a magnet that can generate electricity (electromagnetism) utilizing frequencies as a transmitter.</p></div>
+          
+          <div class="wireless-com"> <p class="inv8">Wireless Communication<hr width="40px"></p><br></br><img src="https://i.postimg.cc/BbTr7t72/8.png" width="90" height="90"></br><p class="invention-par8">Tesla built a tower that would use the natural frequencies of our universe to transmit data, including a wide range of information communicated through images, voice messages, and text.</p></div>
+        </section>
+        
+        </span>
+        <div class="white-bio" id="biogrpahy">
+         <div class="inside-div">
+          
+        <br>
+        <h2>DESCRIPTIVE</h2>
+        
+        
+        <br>
+        <h4>Material needed<hr class="green-lines" width="40px"><h/4>
+        
+        <p class="bio1">Power supply transformer <br>
+          Ceramic capacitors.<br>
+          Metal bolts.<br>
+          Fan or blower (optional)<br>
+          Enameled copper wire.<br>
+          Cylindrical or conical shaping forms.<br>
+          Ring- or spherical-shaped metal object.<br>
+          Grounding spike.</p>
+          
+         <br>
+        <h4>Setup<hr class="green-lines" width="40px"><h/4>
+          
+        <p class="bio2">A Tesla coil consists of two parts: a primary coil and secondary coil, each with its own capacitor. (Capacitors store electrical energy just like batteries.) The two coils and capacitors are connected by a spark gap — a gap of air between two electrodes that generates the spark of electricity. An outside source hooked up to a transformer powers the whole system. Essentially, the Tesla coil is two open electric circuits connected to a spark gap.<br><br>
+
+          A Tesla coil needs a high-voltage power source. A regular power source fed through a transformer can produce a current with the necessary power (at least thousands of volts).<br>
+          
+          In this case, a transformer can convert the low voltage of main power into the high voltage.</p>
+          
+          <br>
+        <h4 >How it works<hr class="green-lines" width="40px"><h/4>
+          
+        <p class="bio3">The power source is hooked up to the primary coil. The primary coil's capacitor acts like a sponge and soaks up the charge. The primary coil itself must be able to withstand the massive charge and huge surges of current, so the coil is usually made out of copper, a good conductor of electricity. Eventually, the capacitor builds up so much charge that it breaks down the air resistance in the spark gap. Then, similar to squeezing out a soaked sponge, the current flows out of the capacitor down the primary coil and creates a magnetic field.<br><br>
+
+          The massive amount of energy makes the magnetic field collapse quickly, and generates an electric current in the secondary coil. The voltage zipping through the air between the two coils creates sparks in the spark gap. The energy sloshes back and forth between the two coils several hundred times per second, and builds up in the secondary coil and capacitor. Eventually, the charge in the secondary capacitor gets so high that it breaks free in a spectacular burst of electric current.<br><br>
+          
+          The resulting high-frequency voltage can illuminate fluorescent bulbs several feet away with no electrical wire connection. </p>
+          
+          <br>
+         </div>
+          <br>
+        </div>
+        </div>
+      
+           <br>
+           <br>
+         <footer class="footer">
+         
+           <p class="Ayaan-codes"> Ayaan Alikadli<p>
+         </footer>
+          <br>
+          <script>document.getElementsByTagName("h1")[0].style.fontSize = "6vw";</script>
+        </main>
+</html>

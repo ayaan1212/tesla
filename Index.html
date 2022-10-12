@@ -1,0 +1,327 @@
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
+    <style>
+
+        body {
+          background:  #E2E2E2;
+          font-family: 'Lato', sans-serif;
+        }
+        
+        .box-with-a-shadow {
+          margin: 20px;
+          background: white !important;
+          color: #1D1D1D;
+        }
+        
+        .toggle-button {
+            position: absolute;
+            top: 3rem;
+            right: 2rem;
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100px;
+            height: 25pX;
+        }
+        
+        .toggle-button .bar {
+            height: 5px;
+            width: 40%;
+            background-color: grey;
+        }
+        
+        nav {
+          margin: 30px;
+          font-family: 'Lato', sans-serif;
+          
+        }
+        
+        @media screen and (max-width: 768px) { 
+           .toggle-button {
+            display: flex;
+        }
+          .box-with-a-shadow {
+            margin: 0px;
+          }
+          .inventions1, .inventions2, .inventions3, .inventions4 {
+           flex-direction: column;
+          }
+          
+          nav ul { 
+            font-size: 20%;
+           
+          }
+         
+          nav ul li a { display: none}
+          
+          .intro {
+            
+          max-width: 100%;
+          margin: 50px 0px 0px 0px !important;
+            
+          }
+          p {
+            font-size: 85%;
+          }
+          
+          hr {
+            width: 50%;
+          }
+        }
+        
+        nav ul  {
+          list-style-type: none;
+          display: flex;
+          justify-content: space-between;
+          float: right;
+        }
+        
+        nav ul li a {
+          text-decoration: none;
+          margin: 20px;
+          color: #1D1D1D;
+        }
+        
+        #title {
+          text-align: center;
+          font-family: 'Lato', sans-serif;
+          font-size: 60px;
+        }
+        .quote {
+          text-align: center;
+          font-family: 'Lato', sans-serif;
+          font-size: 13px;
+          padding: 0px 50px 100px 50px;
+          color: #A5A6A1;
+          
+        }
+        
+        #img-div {
+          text-align: center;
+        }
+        
+        .logo {
+          max-width: 100% !important;
+          height: auto !important;
+        }
+        
+         #image { 
+            
+        width: 100%;
+        height: auto;
+        max-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+          
+        }
+        #img-caption {
+           font-size: 10px;
+        }
+        
+        .intro {
+          
+          margin: 50px 200px 0px 200px;
+          text-align: center;
+          font-size: 20px;
+          font-weight: 600;
+          color: #332E42;
+          
+        }
+        
+        #inventions {
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+        
+        .inventions1, .inventions2, .inventions3, .inventions4  {
+          
+          display: flex;
+          flex-wrap: space-between;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding: 10px 50px 10px 50px;
+          color: #A5A6A1;
+          
+        }
+        
+        .alternating-current, .fluorescent-bulbs, .x-rays, .radio, .remote-control, .electric-motor, .tesla-coil, .wireless-com {
+          
+           font-size: 12px;
+           text-align: center;
+           max-width: 250px;
+           padding: 20px;
+          
+        }
+        
+        .inv1, .inv2, .inv3, .inv4, .inv5, .inv6, .inv7, .inv8 {
+           font-size: 15px;
+           color: #202020;
+           font-weight: 600;  
+        }
+        
+        .white-bio {
+          background-color: lightgrey;
+          color: #202020;
+          max-width: 650px;
+          margin: auto;
+          max-width: 900px; 
+        }
+        
+        .inside-div {
+          text-align: center;
+          margin: 30px;
+        }
+        
+        .green-lines {
+          background-color: white;
+          height: 1px;
+          width: 70px;
+          border-radius: 35px;
+        }
+        
+        .bio1, .bio2, .bio3 {
+            color: #404040;
+            font-weight: normal;
+        }
+        
+        .footer, footer p a {
+          text-align: center;
+          text-decoration: none;
+        }
+        
+        .Ayaan-codes {
+          font-size: 10px;
+        }
+        </style>
+  
+  </head>
+    
+  <body>
+  <main id="main">
+  <div class="box-with-a-shadow">
+    
+  <header>
+    <br>
+    <nav>
+      
+      <div class="logo"> Ayaan Alikadli</div>
+      
+      <a href="E" class="toggle-button">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                       <span class="bar"></span>
+      </a>
+      <ul>
+        
+         <li class="inventions-link"><a href="#inventions">Inventions</a></li>
+         <li class="inventions-link"><a href="teslacoil.html">Tesla Coil</a></li>
+        
+         <li class="biography-link"><a href="#biography">Biography</a></li>
+        
+      </ul>
+        
+      </nav>
+      
+  </header>
+    
+  <h1 id="title">Nikola Tesla</h1>
+    
+  <div class="quote"><p>“What one man calls God, another calls the laws of physics.”
+  ― Nikola Tesla</p></div>
+    
+  <div id="img-div"><figure>
+    <img id="image" src="https://i.postimg.cc/fRLQmhhT/1152702-removebg-preview.png" width="660" height="375">
+    <figcaption id="img-caption">Nikola Tesla writing a letter </figcaption>
+  </figure><br>
+  <hr width="500px">
+  </div>
+  <section class="intro">
+  <p class="intro-words">Serbian inventor Nikola Tesla developed the alternating-current electrical system that's widely used today, and discovered the rotating magnetic field - the basis of most AC machinery.</p>
+  <br>
+  <br>
+  </section>
+  <div id="tribute-info">
+  <span id="inventions" > 
+    
+  <h2>INVENTIONS</h2>
+    
+  <section class="inventions1" >
+    
+    <div class="alternating-current"><p class="inv1" >Alternating current<hr width="40px"></p> <br></br>
+    <img src="https://i.postimg.cc/3JG1Tgnj/1.png" width="90" height="90"><br><p class="invention-par1">An electric current that reverses its direction many times a second at regular intervals, typically used in power supplies. It caused a stir at the 1893 World's Expo in Chicago, ignting the war of currents.</p></div>
+    
+    <div class="fluorescent-bulbs"> <p class="inv2">Fluorescent-bulbs <hr width="40px"></p><br></br><img src="https://i.postimg.cc/Zq60Y5XM/2.png" width="90" height="90"></br><p class="invention-par2">Of course he didn't invent light itself, but he did invent how light can be harnessed and distributed. Tesla developed and used fluorescent bulbs in his lab some 40 years before industry "invented" them.</p></div>
+  </section>
+  <br>
+  <br>
+  <section class="inventions2" >
+    
+    <div class="x-rays"><p class="inv3">X-Rays<hr width="40px"></p><br></br><img src="https://i.postimg.cc/VvPkxQ7c/3.png" width="90" height="90"></br><p class="invention-par3">Electromagnetic and ionizing radiation was heavily researched in the late 1800s, but Tesla researched the entire gamut. Everything from a precursor to Kirlian photography, which has the ability to document life force.</p></div>
+    
+    <div class="radio"><p class="inv4">Radio<hr width="40px"></p><br></br><img src="https://i.postimg.cc/Jh2hrBhm/4.png" width="90" height="90"></br><p class="invention-par4">Guglielmo Marconi was initially credited, and most believe him to be the inventor of radio to this day. However, the Supreme Court overturned Marconi's patent in 1943, when it was proven that Tesla invented the radio years previous to Marconi.</p></div>
+  </section>
+    <br>
+    <br>
+  <section class="inventions3">
+    
+    <div class="remote-control"><p class="inv5">Remote Control<hr width="40px"></p><br></br><img src="https://i.postimg.cc/LX80Tnkq/5.png" width="90" height="90"></br><p class="invention-par5">This invention was a natural outcropping of radio. Patent No. 613809 was the first remote controlled model boat, demonstrated in 1898. Utilizing several large batteries and radio signals controlled switches.</p></div>
+    
+    <div class="electric-motor"><p class="inv6">Electric Motor<hr width="40px"></p><br></br><img src="https://i.postimg.cc/8zHCJ0Z1/6.png" width="90" height="90"></br><p class="invention-par6">Tesla's invention of a motor with rotating magnetic fields could have freed mankind much sooner from the stranglehold of Big Oil. However, his invention in 1930 succumbed to the economic crisis and the world war that followed.</p></div>
+  </section>
+    
+  <section class="inventions4">
+    
+    <div class="tesla-coil"><p class="inv7">Tesla Coil<hr width="40px"></p><br></br><img src="https://i.postimg.cc/8zQGHQyR/7.png" width="90" height="90"></br><p class="invention-par7">The Tesla Coil is certainly something that big industry would have liked to suppress: the concept that the Earth itself is a magnet that can generate electricity (electromagnetism) utilizing frequencies as a transmitter.</p></div>
+    
+    <div class="wireless-com"> <p class="inv8">Wireless Communication<hr width="40px"></p><br></br><img src="https://i.postimg.cc/BbTr7t72/8.png" width="90" height="90"></br><p class="invention-par8">Tesla built a tower that would use the natural frequencies of our universe to transmit data, including a wide range of information communicated through images, voice messages, and text.</p></div>
+  </section>
+  
+  </span>
+  <div class="white-bio" id="biogrpahy">
+   <div class="inside-div">
+    
+  <br>
+  <h2>BIOGRAPHY</h2>
+  
+  
+  <br>
+  <h4>Early Life<hr class="green-lines" width="40px"><h/4>
+  
+  <p class="bio1">The Serbian inventor,Nikola Tesla, was born in July of 1856, in what is now Croatia. He came to the United States in 1884, and briefly worked with Thomas Edison before the two parted ways. He sold several patent rights, including those to his alternating-current machinery, to George Westinghouse. His 1891 invention, the "Tesla coil," is still used in radio technology today. Tesla died in New York City on January 7, 1943.</p>
+    
+   <br>
+  <h4>Famed Inventor<hr class="green-lines" width="40px"><h/4>
+    
+  <p class="bio2">Tesla came to the United States in 1884, and soon began working with famed inventor and business mogul Thomas Edison. The two worked together for a brief period before parting ways due to a conflicting business-scientific relationship, attributed by historians to their incredibly different personalities: While Edison was a power figure who focused on marketing and financial success, Tesla was a commercially out-of-tune and somewhat vulnerable, yet extremely pivotal inventor, who pioneered some of history's most important inventions. His inventions include the "Tesla coil," developed in 1891, and an alternating-current electrical system of generators, motors and transformers—both of which are still used widely today.</p>
+    
+    <br>
+  <h4 >Death & Legacy<hr class="green-lines" width="40px"><h/4>
+    
+  <p class="bio3">Poor and reclusive, Nikola Tesla died on January 7, 1943, at the age of 86, in New York City—where he had lived for nearly 60 years. His legacy, however, has been thriving for more than a century, and will undoubtedly live on for decades to come.
+  
+  Several books and films have highlighted Tesla's life and famous works, including Nikola Tesla, The Genius Who Lit the World, a film created by the Tesla Memorial Society and the Nikola Tesla Museum in Belgrade, Serbia; and The Secret of Nikola Tesla, which stars Orson Welles as John Pierpont Morgan (J.P. Morgan). In recent years, a street sign entitled "Nikola Tesla Corner" was installed in honor of the famous inventor, near the 40th Street-6th Avenue intersection in New York City.</p>
+    
+    <br>
+   </div>
+    <br>
+  </div>
+  </div>
+
+     <br>
+     <br>
+   <footer class="footer">
+   
+     <p class="Ayaan-codes"> Ayaan Alikadli<p>
+   </footer>
+    <br>
+    <script>document.getElementsByTagName("h1")[0].style.fontSize = "6vw";</script>
+  </main>
+  </body>
